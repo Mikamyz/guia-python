@@ -22,8 +22,8 @@ alive = True      # Booleano
 
 # Entrada e Saída
 
-# name = input("Enter your name: ")
-# print("Hello", name)
+name = input("Enter your name: ")
+print("Hello", name)
 
 # Operadores Matemáticos
 
@@ -38,10 +38,10 @@ expoente = 2 ** 3       # Exponenciação
 # 3. Estruturas de Controle
 
 # Condicionais (if, elif, else)
-age = 27
-if age >= 18:
+idade = 18
+if idade >= 18:
   print("Maior de idade")
-elif age == 17:
+elif idade == 17:
   print("Quase lá!")
 else:
   print("Menor de idade")
@@ -53,8 +53,9 @@ contador = 0
 while contador < 5:
     print(contador)
     contador += 1
-# for: 
-for i in range(5):  # 0 a 4
+
+# For: 
+for i in range(5):  # 0 a 5
     print(i)
 
 # Loop em listas:
@@ -78,7 +79,6 @@ people["cidade"] = "São Paulo"  # Adiciona chave/valor
 
 def saudacao(nome):
     return f"Olá, {nome}!"
-
 print(saudacao("Maria"))
 
 # 6. Manipulação de Arquivos
@@ -92,8 +92,8 @@ with open("arquivo.txt", "r") as arquivo:
     print(arquivo.read())
 
 # 7. Módulos e Bibliotecas
-# Importando módulos
 
+# Importando módulos
 import math
 print(math.sqrt(16))  # Raiz quadrada de 16
 
